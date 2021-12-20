@@ -10,8 +10,9 @@ This is a "minimal" reproduction of an issue with svelte's eslint plugin.
 ## Recreate from scratch
 
 1. `npm init svelte@next my-app`
-	skeleton
-	yes to typescript
-	yes to eslint
+	* skeleton
+	* typescript yes
+	* eslint yes
+	* prettier no
 1. `cd my-app`
 1. add `src/test.svelte`
